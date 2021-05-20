@@ -1,0 +1,19 @@
+.category {
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #e2e7f0;
+  border-radius: 10px;
+}
+
+.category__header {
+  text-align: center;
+}
+
+.category__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

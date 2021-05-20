@@ -1,0 +1,13 @@
+.aboutMe {
+  margin: 30px;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.aboutMe__item {
+  margin: 20px 0;
+}
+
+.aboutMe__item__list {
+  list-style-position: inside;
+}

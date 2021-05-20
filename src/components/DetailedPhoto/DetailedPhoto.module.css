@@ -1,0 +1,32 @@
+.detailedPhoto {
+  position: relative;
+  margin: 10px;
+  max-width: 300px;
+}
+
+.detailedPhoto__photo {
+  width: 100%;
+}
+
+.detailedPhoto__button {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  margin-right: -50%;
+  padding: 10px 15px;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Segoe UI', sans-serif;
+
+  background-color: #4d7198;
+  border: none;
+  outline: none;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+
+.detailedPhoto__button:hover {
+  background-color: #899eba;
+}

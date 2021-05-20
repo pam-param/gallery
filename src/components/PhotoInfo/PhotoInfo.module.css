@@ -1,0 +1,11 @@
+.photoInfo {
+
+}
+
+.photoInfo__item {
+  margin: 20px 0;
+}
+
+.photoInfo__item__name {
+  font-weight: bold;
+}
